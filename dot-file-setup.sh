@@ -7,4 +7,3 @@ cp dot_files/.bashrc ~/
 cp dot_files/.profile ~/
 cp dot_files/.screenrc ~/
 cp dot_files/.vimrc ~/
-cp dot_files/.emacs_jp ~/

@@ -1,6 +1,7 @@
 " DICTIONARY SETTINGS
 set dictionary=/usr/share/dict/words
 set complete=k
+colorscheme desert 
 
 " TAB/SPACE SETTINGS
 set tabstop=2
