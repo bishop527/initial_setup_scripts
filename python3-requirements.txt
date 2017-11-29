@@ -1,0 +1,13 @@
+# Install the following python 2 modules
+ipython
+numpy
+scipy
+jupyter
+pandas
+sympy
+nose
+future
+futures
+scikit-learn
+xlrd
+xlsxWriter
