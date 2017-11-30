@@ -1,4 +1,5 @@
 # Install the following python 2 modules
+setuptools
 ipython
 numpy
 scipy
