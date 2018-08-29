@@ -12,4 +12,4 @@
 # The easiest workaround is to first install common dependencies via this
 # initial requirements file, and then install the rest of the packages in a
 # different requirements file.
-numpy==1.7.1
+numpy

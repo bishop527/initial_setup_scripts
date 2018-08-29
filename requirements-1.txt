@@ -24,30 +24,30 @@
 ######scipy==0.12.0
 
 # matplotlib dependencies that get installed by pip
-pyparsing==2.0.1
-python-dateutil==2.1
-nose==1.3.0
-tornado==3.1
-six==1.3.0
+pyparsing
+python-dateutil
+nose
+tornado
+six
 
 # Other modules required for Python code
 # NOTE: For everything below, newlines separate groups of packages; the first
 # package is the top level package we need, and the subsequent packages are
 # dependencies that are installed by pip
-pylint==0.28.0
-logilab-astng==0.24.3
-logilab-common==0.60.0
+pylint
+logilab-astng
+logilab-common
 
-paramiko==1.10.1
-pycrypto==2.6
+paramiko
+pycrypto
 
-scapy-real==2.2.0-dev
+scapy-real
 
 # Other modules required for Cython code
-Cython==0.19.1
+Cython
 
 # Logan needs
-pysphere==0.1.8
+pysphere
 ipython
 requests
 
