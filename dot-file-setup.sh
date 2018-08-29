@@ -1,15 +1,27 @@
 #!/bin/bash
 
 # Copy config files into user's home directory
-cp ~/.bash_aliases .bash_aliases.bck
+if [ -f ~/.bash_aliases ]; then
+  cp ~/.bash_aliases .bash_aliases.bck
+fi
 cp dot_files/.bash_aliases ~/
-cp ~/.bash_logout ~/.bash_logout.bck
+if [ -f ~/.bash_logout]; then
+  cp ~/.bash_logout ~/.bash_logout.bck
+fi
 cp dot_files/.bash_logout ~/
-cp ~/.bashrc ~/bashrc.bck
+if [ -f ~/.bashrc]; then
+  cp ~/.bashrc ~/.bashrc.bck
+fi
 cp dot_files/.bashrc ~/
-cp ~/.profile ~/.profile.bck
+if [ -f ~/.profile]; then
+  cp ~/.profile ~/.profile.bck
+fi
 cp dot_files/.profile ~/
-cp ~/.screenrc ~/.screenrc.bck
+if [ -f ~/.screenrc]; then
+  cp ~/.screenrc ~/.screenrc.bck
+fi
 cp dot_files/.screenrc ~/
-cp ~/.vimrc ~/.vimrc.bck
+if [ -f ~/.vimrc]; then
+  cp ~/.vimrc ~/.vimrc.bck
+fi
 cp dot_files/.vimrc ~/
