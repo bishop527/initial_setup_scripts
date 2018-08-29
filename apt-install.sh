@@ -22,6 +22,7 @@ sudo apt-get -y install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libss
 sudo apt-get -y install git-all
 sudo apt-get -y install bash-completion
 # Python package management utilities
+sudp apt-get -y install python
 sudo apt-get -y install python3
 sudo apt-get -y install python-pip python3-pip python-virtualenv virtualenvwrapper 
 # numpy and matplotlib dependencies
@@ -31,15 +32,13 @@ sudo apt-get build-dep python-matplotlib
 sudo apt-get -y install collectl tcpdump
 sudo apt-get -y install wireshark
 # Editors
-sudo apt-get -y install gedit geany emacs vim geany
+sudo apt-get -y install gedit geany emacs vim 
 # Security
-udo apt-get -y install nmap
+sudo apt-get -y install nmap
 # Misc
-sudo apt-get -y install coreutils
 sudo apt-get -y install curl
 sudo apt-get -y install openssh-server openssh-client
 sudo apt-get -y install ghex hexedit
-sudo apt-get -y install gedit
 sudo apt-get -y install chromium
 sudo apt-get -y install vlc
 sudo apt-get -y install wine
