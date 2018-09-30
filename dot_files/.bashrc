@@ -121,5 +121,5 @@ export FTP_PROXY=$http_proxy
 export RSYNC_PROXY=$http_proxy
 export ALL_PROXY=$http_proxy
 
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+export PATH="~/.local/bin:/opt/local/bin:/opt/local/sbin:$PATH"
 export MANPATH="/opt/local/share/man:$MANPATH"
