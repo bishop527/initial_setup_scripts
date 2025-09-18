@@ -2,8 +2,8 @@
 
 # Python 2
 # Note: matplot is installed via the apt-install script
-python -m pip --proxy $http_proxy install --user --upgrade pip
-python -m pip --no-cache-dir --proxy $http_proxy install --user -r python2-requirements.txt
+# python -m pip --proxy $http_proxy install --user --upgrade pip
+# python -m pip --no-cache-dir --proxy $http_proxy install --user -r python2-requirements.txt
 
 # Python 3
 python3 -m pip --proxy $http_proxy install --user --upgrade pip
