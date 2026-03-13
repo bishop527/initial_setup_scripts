@@ -123,3 +123,5 @@ export ALL_PROXY=$http_proxy
 
 export PATH="~/.local/bin:/opt/local/bin:/opt/local/sbin:$PATH"
 export MANPATH="/opt/local/share/man:$MANPATH"
+
+export LS_COLORS=$LS_COLORS:'ow=01;34:'
