@@ -14,17 +14,21 @@ sudo apt-get -y install g++ libboost-all-dev libevent-dev openssl gdb
 sudo apt-get -y install libncurses5-dev libsqlite3-dev
 sudo apt-get -y install build-essential g++ gcc binutils make clang
 sudo apt-get -y install libclang-common-dev libclang-dev libclang1
-sudo apt-get -y install libllvm-ocaml-dev libllvm3.9 
+sudo apt-get -y install libllvm-ocaml-dev
 sudo apt-get -y install llvm llvm-dev 
 
 # Parsing utilities
 sudo apt-get -y install lemon flex bison
 
 # Java packages
+<<<<<<< Updated upstream
 sudo apt-get -y install default-jdk default-jre 
 
+=======
+sudo apt-get -y install openjdk-17-jdk openjdk-17-jre 
+>>>>>>> Stashed changes
 # Version control utilities
-sudo apt-get -y install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
+#sudo apt-get -y install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
 sudo apt-get -y install git-all
 sudo apt-get -y install bash-completion
 
